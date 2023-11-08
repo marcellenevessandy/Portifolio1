@@ -23,7 +23,7 @@ body{
 
 .content {
     color: white;
-    width: 600px;
+    width: 800px;
     margin: 0 auto;
 
 
@@ -31,4 +31,23 @@ body{
 
 ul{
     text-align: center;
+    list-style: none;
+}
+
+ul li {
+    padding: 2px 0;
+}
+
+a{
+    text-align: center;
+    color: black;
+}
+ion-icon{
+    color:black;
+}
+.links{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    padding-top: 5px;
 }
