@@ -13,7 +13,7 @@ body{
     width: 300px;
     border-radius: 50%;
     border: 3px solid var(--cor-principal);
-    
+
 }
 
 .container {
@@ -23,31 +23,32 @@ body{
 
 .content {
     color: white;
-    width: 800px;
+    width: 740px;
     margin: 0 auto;
-
-
 }
 
 ul{
-    text-align: center;
     list-style: none;
+    padding-left: 0;
 }
 
 ul li {
     padding: 2px 0;
 }
 
-a{
+.logo-github{
     text-align: center;
-    color: black;
+    width: 50px;
 }
-ion-icon{
-    color:black;
+.logo-linkedin{
+    text-align: center;
+    width: 50px;
 }
+
 .links{
     display: flex;
     justify-content: center;
     gap: 5px;
     padding-top: 5px;
+    
 }
